@@ -5,6 +5,14 @@
     display: flex;
     flex-direction: column;
     background: var(--color-footer);
+    transition: transform 0.3s; /* Add a smooth transition for the transform property */
+}
+
+/* Apply transformation on hover */
+.gpt3__blog-container_article:hover {
+    transform: scale(1.01); /* Increase the size of the article on hover */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .gpt3__blog-container_article-image {

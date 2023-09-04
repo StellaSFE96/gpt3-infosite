@@ -21,7 +21,7 @@
     line-height: 75px;
 }
 
-.gpt3__footer-btn {
+.gpt3__footer button{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,17 +30,22 @@
     border: 1px solid #fff;
     text-align: center;
 
-    margin-bottom: 10rem;
-    cursor: pointer;
-}
-
-.gpt3__footer-btn p {
     font-size: 18px;
     font-family: var(--font-family);
     line-height: 21px;
     color: #fff;
     word-spacing: 2px;
+
+    margin-bottom: 10rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.5s;
 }
+
+.gpt3__footer button:hover {
+    background-color: #7380a0;
+    opacity: 20; 
+  }
 
 .gpt3__footer-links {
     display: flex;
