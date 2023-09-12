@@ -1,4 +1,4 @@
-Design based on a pre-existing Figma design (https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?type=design&node-id=0-1&mode=design) <---
+Design based on a pre-existing Figma [Design <---](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?type=design&node-id=0-1&mode=design)
 
 # Getting Started with Create React App
 
